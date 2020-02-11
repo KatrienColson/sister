@@ -26,23 +26,10 @@ html {
   min-height: 100%;
 }
 
-.reserveer-btn {
-  padding: 1.2em 1.5em;
-  font-family: "Merriweather", serif;
-  background-color: #E04644;
-  border: none;
-  color: #191919;
-  font-weight: bold;
-}
-
-.reserveer-btn:hover {
-  background-color: #191919;
-  color: #AD8D55;
-}
-
+/*BEGIN foto op de achtergrond */
 .photo-kamer {
   /* The image used */
-  background-image: url("../img/lamp.jpg");
+  background-image: url("image/hondje.jpeg");
   /* Set a specific height */
   min-height: 620px;
   /* Create the parallax scrolling effect */
@@ -54,7 +41,7 @@ html {
 
 .photo-ontbijtruimte {
   /* The image used */
-  background-image: url("../img/kroon.jpg");
+  background-image: url("image/patrick-zoon-1.jpg");
   /* Set a specific height */
   min-height: 400px;
   /* Create the parallax scrolling effect */
@@ -66,7 +53,7 @@ html {
 
 .photo-zaal {
   /* The image used */
-  background-image: url("../img/blauwesteen.jpg");
+  background-image: url("image/familie-1.jpg");
   /* Set a specific height */
   min-height: 500px;
   /* Create the parallax scrolling effect */
@@ -78,7 +65,7 @@ html {
 
 .photo-check-in {
   /* The image used */
-  background-image: url("../img/sfeer2.jpg");
+  background-image: url("image/kids-5.jpeg");
   /* Set a specific height */
   min-height: 500px;
   /* Create the parallax scrolling effect */
@@ -90,7 +77,7 @@ html {
 
 .photo-prijs {
   /* The image used */
-  background-image: url("../img/sfeer1.jpg");
+  background-image: url("image/kinderen-1.jpg");
   /* Set a specific height */
   min-height: 500px;
   /* Create the parallax scrolling effect */
@@ -102,7 +89,7 @@ html {
 
 .photo-reservation {
   /* The image used */
-  background-image: url("../img/sfeer6.jpg");
+  background-image: url("image/ann-familie-1.jpg");
   /* Set a specific height */
   min-height: 500px;
   /* Create the parallax scrolling effect */
@@ -114,7 +101,7 @@ html {
 
 .photo-aboutus {
   /* The image used */
-  background-image: url("../img/sfeer5.jpg");
+  background-image: url("image/ann-carlos-1.JPG");
   /* Set a specific height */
   min-height: 500px;
   /* Create the parallax scrolling effect */
@@ -126,7 +113,7 @@ html {
 
 .photo-contact {
   /* The image used */
-  background-image: url("../img/sfeer7.jpg");
+  background-image: url("image/ann-2.JPG");
   /* Set a specific height */
   min-height: 500px;
   /* Create the parallax scrolling effect */
@@ -135,7 +122,9 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+/*EINDE foto op de achtergrond */
 
+/*header */
 .container-header {
   display: flex;
   flex-wrap: wrap;
@@ -143,33 +132,36 @@ html {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #191919;
+  background-color: #3C2E3D;
   z-index: 1;
   height: 30vh;
   width: 100%;
   top: 0;
 }
 .container-header h1.shimmer {
-  font-family: "Cormorant", serif;
+  font-family: 'Pacifico', cursive;
   padding: 0 20px 0 0;
   margin-bottom: 0;
   letter-spacing: 0.15em;
 }
 
 h2 {
-  color: #AD8D55;
+  color: #fff;
   font-size: 2em;
   padding-bottom: 0.5em;
   padding-top: 0.5em;
+  font-family: 'Pacifico', cursive;
+  letter-spacing: 2px;
 }
 
 h1 {
-  color: #AD8D55;
+  font-family: 'Pacifico', cursive;
+  color: #fff;
   font-size: 3em;
 }
 
 .shimmer {
-  background: linear-gradient(to right, #AD8D55, #AD8D55, #cdba99 70%);
+  background: linear-gradient(to right, #DAE9E4, #ECC7C0, #FDAE84 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -240,13 +232,13 @@ li a {
 .dropdown:hover .dropbtn {
   background-color: #191919;
 }
-
+/*1ste box met foto's */
 .practical-info-container {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   height: auto;
-  background-color: #191919;
+  background-color: #3C2E3D;
   justify-content: center;
 }
 
@@ -258,7 +250,7 @@ li a {
 .title-practical {
   flex-direction: column;
   font-family: "Merriweather", serif;
-  color: #AD8D55;
+  color: #ECC7C0;
   text-align: center;
   padding-top: 2em;
   padding-bottom: 2em;
@@ -269,18 +261,18 @@ li a {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  border-top: 1px solid #AD8D55;
-  border-left: 1px solid #AD8D55;
+  border-top: 1px solid #ECC7C0;
+  border-left: 1px solid #ECC7C0;
 }
 
 .box-info {
-  width: 45%;
+  width: 40%;
   height: auto;
   justify-content: flex-end;
   padding-right: 1em;
-  border-right: 1px solid #AD8D55;
-  border-bottom: 1px solid #AD8D55;
-  color: #AD8D55;
+  border-right: 1px solid #ECC7C0;
+  border-bottom: 1px solid #ECC7C0;
+  color: #ECC7C0;
 }
 .box-info h2 {
   text-align: end;
@@ -289,19 +281,14 @@ li a {
   padding-right: 1em;
 }
 .box-info p {
-  font-size: 1em;
+  text-align: center;
+  font-size: 1.5em;
   line-height: 1.75em;
-  padding: 1em;
+  padding-left: 3em;
+  padding-top: 1em;
 }
-.box-info li {
-  padding: 0;
-  margin-top: 1em;
-  list-style-type: disc;
-  margin-left: 1em;
-}
-
 .slideshow-container {
-  width: 45%;
+  width: 60%;
   height: auto;
 }
 
@@ -319,19 +306,20 @@ li a {
 .mySlides-kamer img, .mySlides-ontbijtruimte img, .mySlides-zaal img {
   height: 250px;
 }
+/*tekst onder foto*/
 .mySlides-kamer .p, .mySlides-ontbijtruimte .p, .mySlides-zaal .p {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-evenly;
-  font-family: "Merriweather", serif;
-  color: #AD8D55;
-  font-size: 1em;
+  font-family: 'Overpass', sans-serif;
+  color: #8BCBC8;
+  font-size: 1.5em;
 }
 
 .numbertext {
-  font-family: "Merriweather", serif;
-  color: #AD8D55;
+  font-family: 'Overpass', sans-serif;
+  color: #8BCBC8;
   padding-bottom: 1em;
 }
 
@@ -341,8 +329,7 @@ li a {
   justify-content: center;
   padding-bottom: 1em;
   padding-top: 1em;
-  color: #AD8D55;
-}
+  }
 
 /* Next & previous buttons */
 .prev, .next {
@@ -353,7 +340,7 @@ li a {
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: #AD8D55;
+  color: #ECC7C0;
   font-weight: bold;
   font-size: 20px;
   transition: 0.6s ease;
@@ -367,7 +354,7 @@ li a {
   height: 12px;
   width: 12px;
   margin: 0 1px;
-  background-color: #AD8D55;
+  background-color: #ECC7C0;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
@@ -383,6 +370,10 @@ li a {
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
+}
+span{
+  font-family: 'Caveat', cursive;
+  font-size: 1.5em;
 }
 
 @-webkit-keyframes fade {
