@@ -78,7 +78,7 @@ html {
 
 .photo-prijs {
   /* The image used */
-  background-image: url("image/kinderen-1.jpg");
+  background-image: url("image/kinderen-1.JPG");
   /* Set a specific height */
   min-height: 500px;
   /* Create the parallax scrolling effect */
@@ -90,7 +90,7 @@ html {
 
 .photo-reservation {
   /* The image used */
-  background-image: url("image/ann-familie-1.jpg");
+  background-image: url("image/ann-familie-1.JPG");
   /* Set a specific height */
   min-height: 500px;
   /* Create the parallax scrolling effect */
