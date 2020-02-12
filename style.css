@@ -824,7 +824,22 @@ img {
   top:-0.14em;
   left:10px;
 }
+/* box met video*/
+.video{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5em 0;
+  width: 100%;
+  height: auto;
+  background-color: #6e7376;
+}
+.awel{
+  color: #eeb6b7;
+  font-size: 2em;
+  padding-bottom: 2em;
 
+}
 /*Begin footer*/
 .container-footer {
   display: block;
@@ -837,9 +852,10 @@ img {
   height: auto;
   width: 100%;
   padding-top: 0.5em;
+  border-top: 1px solid #525758;
 }
 
 .copieright {
-  color: #99ced4;
+  color: #fff;
   font-size: 1em;
 }
